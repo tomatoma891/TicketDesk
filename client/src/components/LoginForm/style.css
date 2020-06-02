@@ -1,0 +1,21 @@
+#login {
+    height:calc(100vh - 168px);
+    padding: 0;
+    border-radius: 0
+}
+#formControl {
+
+    display: inline-block;
+   
+      
+}
+#button {
+    width: 70px;
+}
+#outlined-password-input {
+    display: inline-block;
+}
+
+#username {
+    display: inline-block;
+}

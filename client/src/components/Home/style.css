@@ -1,0 +1,12 @@
+#root{
+    height:calc(100vh - 168px);
+    padding: 0;
+    border-radius: 0;
+}
+
+
+.row{
+    height: 700px;
+
+  background-image:url(./images/office3.jpg);
+}
