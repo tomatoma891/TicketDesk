@@ -14,7 +14,7 @@ As a user I want to log-in to access my employee account, and view all ticket re
 ![](/client/public/readme/chart.png)
 
 ## Utilizing the App
-* Experience the deployed app on Heroku: Here 
+* Experience the deployed app on Heroku: Here https://ticket-desk-app.herokuapp.com/
 * User is routed to "Login" page, where the user can "Login" or click to "Sign Up"
 * After the user logs in, they are brought to their member homepage where they can work on existing ticket assigned to them,solve ticket, update ticket or submit ticket 
 
