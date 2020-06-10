@@ -34,7 +34,7 @@ app.post('/user', (req, res) => {
 const uri = process.env.ATLAS_URI;
 
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true });
-mongoose.connect(process.env.MONGODB_URI ||"mongodb://adventureblonde:Denver123@%40ds031328.mlab.com:31328/heroku_msfnwp86")
+mongoose.connect(process.env.MONGODB_URI ||"mongodb://adventureblonde:"+encodeURIComponent("Denver123@")+"@ds031328.mlab.com:31328/heroku_msfnwp86")
 
 if (process.env.NODE_ENV  = "production") {
     app.use(express.static("client/build"));
