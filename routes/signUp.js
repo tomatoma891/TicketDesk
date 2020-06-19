@@ -31,8 +31,8 @@ router.post('/', (req, res) => {
 
 router.post(
      '/user/login',
-     passport.authenticate('local', { successRedirect: 'http://localhost:3000/',
-                                   failureRedirect: '/login' }));/// bad look - send message to user that login is no good. Make sure it displays on front!!!
+     passport.authenticate('local', { successRedirect: '/login',
+                                   failureRedirect: 'http://localhost:3000/' }));/// bad look - send message to user that login is no good. Make sure it displays on front!!!
 //     function (req, res, next) {
 //         console.log('routes/user.js, login, req.body: ');
 //         console.log(req.body)
